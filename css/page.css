@@ -29,6 +29,15 @@ a {
     margin: auto;
 }
 
+/*------------site en construction--------------------------*/
+.culture_nomade {
+    position: absolute;
+    left: 130px;
+    top: 170px;
+    color: white;
+    background-color: #000;
+}
+
 .btn {
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -106,6 +115,17 @@ a {
     order: 1;
     font-size: 2.3rem;
     margin-bottom: 0.5rem;
+}
+
+/*-----------------navbar------------------------*/
+@font-face {
+    font-family: Winterland;
+    src: url(../font-winterland/Winterland.otf);
+}
+
+.logo {
+    font-family: Winterland, sans-serif;
+    font-size: 1.5em;
 }
 
 /* ............//// Showcase styling ////......... */
@@ -609,8 +629,14 @@ a {
 }
 
 img {
-    max-width: 100%;
-    max-height: 400px;
+    width: 100%;
+    max-height: 550px;
+}
+
+.illustration-country {
+    width: 100%;
+    object-fit: cover;
+    max-height: 500px;
 }
 
 input[type=radio] {
@@ -828,8 +854,39 @@ img {
 
 }
 
-/* @media(max-width: 540px) {
+@media(max-width: 600px) {
     img {
-        max-width: 380px;
+        width: 100%;
+        max-height: 330px;
+        object-fit: cover;
     }
-} */
+}
+
+@media(max-width: 600px) {
+    img {
+        width: 100%;
+        max-height: 330px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 500px) {
+    img {
+        width: 100%;
+        max-height: 280px;
+
+    }
+}
+
+@media(max-width: 450px) {
+    img {
+        width: 100%;
+        max-height: 250px;
+
+    }
+
+    .logo {
+        font-size: 2em;
+        top: 17px;
+    }
+}

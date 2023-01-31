@@ -21,6 +21,19 @@ a {
     text-decoration: none;
 }
 
+/*-------------------navbar-----------------*/
+@font-face {
+    font-family: Winterland;
+    src: url(../font-winterland/Winterland.otf);
+}
+
+.logo {
+    font-family: Winterland, sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5em;
+
+}
+
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -224,7 +237,7 @@ a {
     display: block;
     width: 100%;
     margin: auto;
-    max-height: 300px;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -334,7 +347,7 @@ a {
 }
 
 /* ........./ Testimonial /.......... */
-
+/* 
 #testimonials {
     padding: 5rem 0;
     background: rgba(243, 243, 243);
@@ -376,7 +389,7 @@ a {
     object-position: center;
     border-radius: 50%;
     margin: auto;
-}
+} */
 
 /* ........ Contact Us........... */
 
@@ -455,7 +468,7 @@ a {
 
 /* ......../ media query /.......... */
 
-@media (max-width: 768px) {
+@media (max-width:992px) {
     .navbar {
         opacity: 0.95;
     }
@@ -589,10 +602,10 @@ a {
         font-size: 1.6rem;
     }
 
-    .testimonial-container {
+    /* .testimonial-container {
         flex-direction: column;
         text-align: center;
-    }
+    } */
 
     .food-menu-container img {
         margin: auto;
